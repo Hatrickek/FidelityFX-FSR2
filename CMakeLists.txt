@@ -79,7 +79,6 @@ option (FFX_FSR2_API_DX12 "Build FSR 2.0 DX12 backend" ${GFX_API_DX12})
 option (FFX_FSR2_API_VK "Build FSR 2.0 Vulkan backend" ${GFX_API_VK})
 
 # reference libs used by both backends
-add_subdirectory(src/Common)
 add_subdirectory(src/ffx-fsr2-api)
 
 if(GFX_API_VK)
